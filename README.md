@@ -114,11 +114,6 @@ sudo rm -rf /usr/local/aws-cli
   - Go to Services -> IAM -> Users -> "Your-Admin-User" -> Security Credentials -> Create Access Key
 - Configure AWS credentials using SSH Terminal on your local desktop
 
-# **Configure AWS Credentials in command line**
-```
-$ aws configure
-Default region name [None]: us-west-2
-Default output format [None]: json
 
 # Verify if we are able list S3 buckets
 aws s3 ls
